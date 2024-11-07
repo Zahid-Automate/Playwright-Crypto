@@ -62,3 +62,6 @@ npx playwright test tests/login.spec.js
 3. Commit your changes
 4. Push to the branch
 5. Create a Pull Request
+
+<img width="746" alt="image" src="https://github.com/user-attachments/assets/bf9e2498-8d55-423d-969b-486f547b1310">
+
