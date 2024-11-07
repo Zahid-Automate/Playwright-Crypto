@@ -1,6 +1,6 @@
 # Encrypted Login Test Project
 
-This project demonstrates automated login testing with encrypted credentials using Playwright and CryptoJS.
+This project demonstrates automated login testing with encrypted credentials using Playwright and CryptoJS for a Javascript project.
 
 ## Project Structure
 
@@ -27,6 +27,7 @@ npm install playwright crypto-js dotenv
 ```env
 UN=your_username
 PASSWORD=your_password
+CRYPTO_SECRET_KEY=your_secret_key
 ```
 
 3. Encrypt your credentials:
