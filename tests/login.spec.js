@@ -24,4 +24,5 @@ test.describe('Login Validation', () => {
 test.afterEach(async ({ page }) => {
     await page.getByRole('banner').getByRole('img', { name: 'profile picture' }).click();
     await page.getByRole('menuitem', { name: 'Logout' }).click();
+    await page.close();
 });
